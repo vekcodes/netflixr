@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-family: poppins;
+}
+.mask-gradient {
+  -webkit-mask-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75) 75%);
+  mask-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75) 75%);
+}
+
+.text-glow-red {
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5), 0 0 30px rgba(255, 0, 0, 0.3);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
